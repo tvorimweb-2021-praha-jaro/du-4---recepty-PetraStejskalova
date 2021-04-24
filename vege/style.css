@@ -33,7 +33,80 @@ body {
     color: silver;
 }
 
-
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+body {
+    background-color: black;
+    text-shadow: 1px 2px 2px #000;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 0;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0;
+}
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+.recepty {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    color: white;
+}
+.recept-hlavni {
+    position: relative;
+    min-height: 200px;
+    background-image: url(images/salat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 0.1rem solid white;
+}
+.recept-hlavni h1 {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+}
+.podrobnosti-receptu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.recept-maly {
+    position: relative;
+    min-height: 90px;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0.1rem solid white;
+}
+.chlebicek {
+    background-image: url(images/chlebicek.jpg);
+}
+.pita {
+    background-image: url(images/cizrna.jpg);
+}
+.tacos {
+    background-image: url(images/tacos.jpg);
+}
+.burger {
+    background-image: url(images/burger.jpg);
+    border-bottom: none;
+}
+.recept-maly h2 {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+}
+
